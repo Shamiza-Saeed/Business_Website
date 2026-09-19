@@ -39,6 +39,3 @@ Welcome to the official repository of **Shamiza**, a modern and responsive multi
 https://shamiza-saeed.github.io/Business_Website/
 👤 Author
 Developed with ❤️ by Shamiza Saeed.
-
-👤 Author
-Developed with ❤️ by Shamiza Saeed.
