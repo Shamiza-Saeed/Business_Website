@@ -1,216 +1,431 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Devixo Solutions | Home</title>
+
     <!-- CSS Link -->
+
     <link rel="stylesheet" href="style.css">
+
     <!-- FontAwesome for Icons -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 </head>
+
 <body>
 
+
+
     <!-- Header & Navigation -->
+
     <header>
+
         <nav class="navbar">
+
             <div class="logo">
+
                 <h1>Shamiza<span>.</span></h1>
+
             </div>
+
             
+
             <!-- Navigation Links -->
+
             <ul class="nav-links">
+
                 <li><a href="index.html" class="active">Home</a></li>
+
                 <li><a href="about.html">About</a></li>
+
                 <li><a href="services.html">Services</a></li>
+
                 <li><a href="portfolio.html">Portfolio</a></li>
+
                 <li><a href="contact.html">Contact</a></li>
+
             </ul>
 
+
+
             <!-- Nav Controls (Dark Mode & Hamburger) -->
+
             <div class="nav-controls">
+
                 <button id="dark-mode-toggle"><i class="fas fa-moon"></i></button>
+
                 <div class="hamburger" id="hamburger">
+
                     <i class="fas fa-bars"></i>
+
                 </div>
+
             </div>
+
         </nav>
+
     </header>
 
+
+
     <!-- Main Content -->
+
     <main>
+
         <!-- Hero Section -->
+
         <section id="home" class="hero">
+
             <div class="hero-container">
+
                 <div class="hero-text">
+
                     <span class="hero-badge">Digital Experience Agency</span>
+
                     <h2>Welcome to Shamiza</h2>
+
                     <h3>We specialize in <span id="typing-text"></span><span class="cursor">|</span></h3>
+
                     <p>Providing cutting-edge web development and design solutions to elevate your business presence globally.</p>
+
                     <div class="hero-buttons">
+
                         <a href="#services" class="btn btn-primary">Explore Services</a>
+
                         <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+
                     </div>
+
                 </div>
+
                 <div class="hero-image">
+
                     <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="Creative Agency Team">
+
                 </div>
+
             </div>
+
         </section>
+
+
 
         <!-- About Section -->
+
         <section id="about" class="about-section">
+
             <div class="about-content">
+
                 <h2>About Shamiza</h2>
+
                 <p>We deliver modern web development and high-performance digital solutions tailored to scale your business online with cutting-edge technology.</p>
+
                 
+
                 <!-- Animated Counters -->
+
                 <div class="counters-container">
+
                     <div class="counter-box">
+
                         <h3 class="counter" data-target="150">0</h3>
+
                         <p>Projects Completed</p>
+
                     </div>
+
                     <div class="counter-box">
+
                         <h3 class="counter" data-target="50">0</h3>
+
                         <p>Happy Clients</p>
+
                     </div>
+
                     <div class="counter-box">
+
                         <h3 class="counter" data-target="5">0</h3>
+
                         <p>Years Experience</p>
+
                     </div>
+
                 </div>
+
             </div>
+
         </section>
+
+
 
         <!-- Services Section -->
+
         <section id="services" class="services-section">
+
             <h2>Our Services</h2>
+
             <p class="section-subtitle">Comprehensive digital solutions tailored to elevate your business.</p>
 
+
+
             <div class="services-grid">
+
                 <div class="service-card">
+
                     <div class="service-img-container">
+
                         <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="Web Design">
+
                     </div>
+
                     <div class="service-info">
+
                         <h3>Web Design</h3>
+
                         <p>Crafting modern, responsive, and user-centric website interfaces that leave a lasting impression.</p>
+
                     </div>
+
                 </div>
 
+
+
                 <div class="service-card">
+
                     <div class="service-img-container">
+
                         <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" alt="Web Development">
+
                     </div>
+
                     <div class="service-info">
+
                         <h3>Web Development</h3>
+
                         <p>Building scalable, secure, and fast dynamic web applications using pure JS and modern standards.</p>
+
                     </div>
+
                 </div>
 
+
+
                 <div class="service-card">
+
                     <div class="service-img-container">
+
                         <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="SEO & Growth">
+
                     </div>
+
                     <div class="service-info">
+
                         <h3>SEO & Growth</h3>
+
                         <p>Optimizing web presence to rank higher, drive organic traffic, and convert visitors into clients.</p>
+
                     </div>
+
                 </div>
+
             </div>
+
+
 
             <!-- FAQ Accordion -->
+
             <div class="faq-container">
+
                 <h2>Frequently Asked Questions</h2>
+
                 <div class="accordion">
+
                     <div class="accordion-item">
+
                         <button class="accordion-header">What technologies do you use? <span class="icon">+</span></button>
+
                         <div class="accordion-content">
+
                             <p>We build robust web solutions strictly using HTML5, CSS3, and Vanilla JavaScript for maximum performance.</p>
+
                         </div>
+
                     </div>
+
                     <div class="accordion-item">
+
                         <button class="accordion-header">Are the websites fully responsive? <span class="icon">+</span></button>
+
                         <div class="accordion-content">
+
                             <p>Yes, all our projects are built mobile-first and work seamlessly across all screen sizes.</p>
+
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
+
         </section>
+
+
 
         <!-- Portfolio Section -->
+
         <section id="portfolio" class="portfolio-section">
+
             <h2>Featured Projects</h2>
+
             <p class="section-subtitle">Explore our latest web development and design solutions.</p>
 
+
+
             <div class="portfolio-grid">
-                <div class="portfolio-card">
-                    <div class="portfolio-img-container">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="E-Commerce Project">
-                        <div class="portfolio-overlay">
-                            <a href="javascript:void(0);" class="portfolio-btn" onclick="openModal('E-Commerce Platform', 'A full-featured online store built with ultra-fast page load speeds, custom payment integration, and a mobile-optimized checkout experience.')">View Case Study</a>
-                        </div>
-                    </div>
-                    <div class="portfolio-info">
-                        <span class="category-tag">Web Development</span>
-                        <h3>E-Commerce Platform</h3>
-                        <p>Custom built online store with seamless checkout experience and fast performance.</p>
-                    </div>
-                </div>
 
                 <div class="portfolio-card">
+
                     <div class="portfolio-img-container">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Dashboard Project">
+
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="E-Commerce Project">
+
                         <div class="portfolio-overlay">
-                            <a href="javascript:void(0);" class="portfolio-btn" onclick="openModal('Corporate Dashboard', 'A real-time enterprise management suite with interactive charts, user role analytics, and dark/light theme switching capability.')">View Case Study</a>
+
+                            <a href="javascript:void(0);" class="portfolio-btn" onclick="openModal('E-Commerce Platform', 'A full-featured online store built with ultra-fast page load speeds, custom payment integration, and a mobile-optimized checkout experience.')">View Case Study</a>
+
                         </div>
+
                     </div>
+
                     <div class="portfolio-info">
-                        <span class="category-tag">UI/UX & Analytics</span>
-                        <h3>Corporate Dashboard</h3>
-                        <p>Minimalist analytics interface designed for real-time enterprise management.</p>
+
+                        <span class="category-tag">Web Development</span>
+
+                        <h3>E-Commerce Platform</h3>
+
+                        <p>Custom built online store with seamless checkout experience and fast performance.</p>
+
                     </div>
+
                 </div>
+
+
+
+                <div class="portfolio-card">
+
+                    <div class="portfolio-img-container">
+
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Dashboard Project">
+
+                        <div class="portfolio-overlay">
+
+                            <a href="javascript:void(0);" class="portfolio-btn" onclick="openModal('Corporate Dashboard', 'A real-time enterprise management suite with interactive charts, user role analytics, and dark/light theme switching capability.')">View Case Study</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="portfolio-info">
+
+                        <span class="category-tag">UI/UX & Analytics</span>
+
+                        <h3>Corporate Dashboard</h3>
+
+                        <p>Minimalist analytics interface designed for real-time enterprise management.</p>
+
+                    </div>
+
+                </div>
+
             </div>
+
         </section>
+
+
 
         <!-- Contact Section -->
+
         <section id="contact" class="contact-section">
+
             <h2>Contact Us</h2>
+
             <p class="section-subtitle">Get in touch with us for your next project.</p>
+
             <form id="contact-form" novalidate>
+
                 <div class="form-group">
+
                     <input type="text" id="name" placeholder="Your Name" required>
+
                     <small class="error-msg"></small>
+
                 </div>
+
                 <div class="form-group">
+
                     <input type="email" id="email" placeholder="Your Email" required>
+
                     <small class="error-msg"></small>
+
                 </div>
+
                 <div class="form-group">
+
                     <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+
                     <small class="error-msg"></small>
+
                 </div>
+
                 <button type="submit" class="btn">Send Message</button>
+
                 <div id="form-status"></div>
+
             </form>
+
         </section>
 
+
+
         <!-- Scroll To Top Button -->
+
         <button id="scrollTopBtn" title="Go to top">&#8593;</button>
+
     </main>
 
+
+
     <!-- Case Study Pop-up Modal -->
+
     <div id="caseStudyModal" class="modal">
+
         <div class="modal-content">
+
             <span class="close-btn" onclick="closeModal()">&times;</span>
+
             <h2 id="modalTitle">Project Details</h2>
+
             <p id="modalDescription">Loading details...</p>
+
         </div>
+
     </div>
 
+
+
     <!-- JavaScript Link -->
+
     <script src="script.js"></script>
+
 </body>
+
 </html>
